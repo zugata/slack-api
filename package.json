@@ -38,8 +38,8 @@
   "dependencies": {
     "bluebird": "^2.9.3",
     "error-factory": "^0.1.4",
-    "lodash": "^2.4.1",
-    "superagent": "^0.21.0"
+    "lodash": "^3.5.0",
+    "superagent": "^1.2.0"
   },
   "devDependencies": {
     "chai": "^1.10.0",
