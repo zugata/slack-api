@@ -49,7 +49,7 @@ api.oauth.getUrl = function getUrl(options, done) {
     done = function noop() {};
   }
 
-  return done(null, 'https://slack.com/oauth/authorize?' + querystring.stringify(options));
+  return 'https://slack.com/oauth/authorize?' + querystring.stringify(options);
 };
 
 api.oauth.access = function authorize(options, state, done) {
